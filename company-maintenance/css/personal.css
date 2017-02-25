@@ -1,0 +1,33 @@
+a:active{color:#000;text-decoration:none}nav{width:100%;height:3rem;position:fixed}nav ul{background:#f9f9f9}nav ul li{width:29%;line-height:5rem;border-right:1px #c4c4c4 solid;border-bottom:1px #c4c4c4 solid;float:left;text-align:center;color:#373b3e}nav ul li:last-child{width:13%;line-height:5.1rem;border-right:none}nav ul li.active{color:#f0ad4e}.content{padding:5rem 1rem 0 1rem}.content h4{font-weight:700}.content span{color:#949494;line-height:1rem;font-size:1.2rem}.content img{width:32%;height:6rem;margin-left:0.2rem}.content ul li{padding:1rem 0rem;border-bottom:1px #f1f1f1 solid}.btn{width:100%}.footer{width:100%;position:fixed;bottom:0rem}.footer>ul{width:100%;height:5rem;margin:0;border-top:0.1rem #e6e6e6 solid}.footer>ul>li{width:33.3%;background:#fff;border-right:0.1rem #e6e6e6 solid;line-height:5rem;text-align:center;position:relative;float:left}.footer>ul>li ul{width:100%;display:none;position:absolute;top:-10.5rem;background:#fff;border-bottom:1px #e6e6e6 solid}.footer>ul>li ul li{width:100%;border:1px #e6e6e6 solid;border-bottom:none}.footer>ul>li ul.active{display:block}
+
+
+@font-face {
+    font-family: 'iconfont';  /* project id 209809 */
+    src: url('//at.alicdn.com/t/font_y1x6hog2pmpwrk9.eot');
+    src: url('//at.alicdn.com/t/font_y1x6hog2pmpwrk9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_y1x6hog2pmpwrk9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_y1x6hog2pmpwrk9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_y1x6hog2pmpwrk9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.image{position: relative;}
+.background{width: 100%; height: 15rem;}
+.people{width: 8rem; height: 8rem; position: absolute; left: 4rem; top: 3rem;}
+.name,.id{position: absolute;}
+.name{top: 5rem; left: 15rem;}
+.id{top:7rem; left: 15rem;}
+
+.banner{margin: 3rem 0 3rem 0; width: 100%; border-top: 1px #ddd solid;  border-bottom: 1px #ddd solid;}
+.banner li{width: 50%; height: 5rem; float: left; text-align: center; line-height: 5rem;}
+.banner li:nth-last-child(2){border-right:1px #ddd solid;}
+
+.modify,.history{border-top: 2rem #ddd solid; width: 100%; margin-bottom: 3rem;}
+.modify li,.history li{height: 3rem; line-height: 3rem; border-bottom: 1px #ddd solid;  padding-left:2rem; position: relative;}
+.goin{position: absolute; right: 1rem;}
+

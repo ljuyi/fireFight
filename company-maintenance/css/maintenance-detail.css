@@ -1,0 +1,85 @@
+﻿*{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;color:#000;}
+body{font-size:12px;font-family:Arial,Verdana,Tahoma,"微软雅黑","黑体";line-height:120%;background:#fff;margin:0;overflow-x:hidden;}
+p, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, form, table{margin:0;padding:0;}
+a, img{border:none;}
+img{vertical-align:middle;border:0;}
+ul, li{list-style:none;margin: 0;padding: 0;}
+i, em{font-style:normal;}
+a{text-decoration:none;/* color:#000000;*/border:0;}
+a:link{text-decoration:none; color:#000000;}
+a:hover{text-decoration:none; color:#000000;}
+a:visited{text-decoration:none; color:#000000;}
+a:active{text-decoration:none; color:#000000;}
+.clearfix:before, .clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1} 
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+input, button{outline:none;margin:0;padding:0;}
+::-moz-focus-inner{border:none;}
+a{blr:expression(this.onFocus=this.blur());}
+:focus{outline:0;-moz-outline-style:none;}
+body{
+    width:100%;
+    margin: 0;
+    padding:0;
+    background-color: #ffffff;
+    padding-top:1.5rem;
+}
+nav{
+    position:relative;
+}
+nav ul{padding-top:0.95rem;padding-bottom:0.95rem;}
+nav ul li{width:33.3%;line-height:30px;float:left;text-align:center;color:#373b3e;}
+nav ul li a{display:block;font-size:1rem;}
+.content{
+    padding-top: 0.58rem;
+    width: 19.8rem;
+    height: 15.9rem;
+    display: block;
+    margin: 0 auto;
+}
+p{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.info{
+    width: 6rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+.info a{font-size: 0.8rem;color: #8a8a8a;}
+.info a img{width: 1.88rem;height: 1.66rem;margin-right: 0.5rem;}
+.emergency{
+    width: 14rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom:9rem;
+    position:relative;
+}
+.emergency .listname{width: 30%;float: left;}
+.emergency .listname li{height: 3rem;font-size: 0.75rem;font-weight: bold;color: #000;}
+.emergency .listcontent{width: 70%;float: right;padding-left: 2rem;}
+.emergency .listcontent input{border: none;}
+.emergency .listcontent .contentname{font-size: 0.72rem;margin-bottom: 2.04rem;}
+.emergency .listcontent select{width: 8.05rem;height: 2rem;margin-bottom: 1.07rem;}
+.emergency .listcontent textarea{width: 8.05rem;height: 4rem;margin-bottom: 0.59rem;}
+.emergency .listcontent .location{font-size: 0.72rem;}
+button.btn{
+    font-size: 1rem;
+}
+.success {
+    position: absolute;
+    width: 5rem;
+    height: 1.8rem;
+    left: 5.37rem;
+    bottom:7rem;
+}
+.picList{
+    padding:0 2.5rem;
+}
+.picList img{
+    width:8rem;
+    height:9rem;
+    margin-left:2px;
+}

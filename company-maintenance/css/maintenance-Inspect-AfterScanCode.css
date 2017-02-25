@@ -1,0 +1,92 @@
+*{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;color:#000;}
+body{font-size:12px;font-family:Arial,Verdana,Tahoma,"微软雅黑","黑体";line-height:120%;background:#fff;margin:0;overflow-x:hidden;}
+p, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, form, table{margin:0;padding:0;}
+a, img{border:none;}
+img{vertical-align:middle;border:0;}
+ul, li{list-style:none;margin: 0;padding: 0;}
+i, em{font-style:normal;}
+a{text-decoration:none;/* color:#000000;*/border:0;}
+a:link{text-decoration:none; color:#000000;}
+a:hover{text-decoration:none; color:#000000;}
+a:visited{text-decoration:none; color:#000000;}
+a:active{text-decoration:none; color:#000000;}
+.clearfix:before, .clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1} 
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+input, button{outline:none;margin:0;padding:0;}
+::-moz-focus-inner{border:none;}
+a{blr:expression(this.onFocus=this.blur());}
+:focus{outline:0;-moz-outline-style:none;}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 212845 */
+    src: url('//at.alicdn.com/t/font_e37sbmmhtdbwqaor.eot');
+    src: url('//at.alicdn.com/t/font_e37sbmmhtdbwqaor.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_e37sbmmhtdbwqaor.woff') format('woff'),
+    url('//at.alicdn.com/t/font_e37sbmmhtdbwqaor.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_e37sbmmhtdbwqaor.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#8a8a8a;
+    font-size:1.5rem;
+}
+.wrong{
+    color:#ff0000;
+}
+.right{
+    color:#19e304;
+}
+body{
+    width:100%;
+    margin: 0;
+    padding:0;
+    background-color: #ffffff;
+}
+.pagecontent{
+    padding-bottom: 6.37rem;;
+}
+.content{
+    padding-top: 0.58rem;
+    width: 18.4rem;
+    height: 18.4rem;
+    display: block;
+    margin: 0 auto;
+}
+.pagecontent>img{
+    margin-bottom:1rem;
+}
+p{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.Task{
+    width: 18rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+.Task ul li{height: 2.5rem;font-size: 1rem;line-height:1.5rem;}
+.Task .taskLeft{width: 70%;float: left;}
+.Task .taskLeft img{width: 0.9rem;height: 0.9rem;padding-right: 0.3rem;}
+.Task .taskRight{width: 30%;float: right;}
+.Task .taskRight i{cursor: pointer;}
+.Task .taskRight i:last-child{margin-left:1rem;}
+button.btn{
+    font-size: 0.75rem;
+    text-align:center;
+}
+.emergency{
+    position: relative;
+    width: 5rem;
+    height: 1.8rem;
+    left: 6.44rem;
+}
+.botton{width:10rem;margin:0 auto;display:block;}
+.botton .btn{margin-left:0.2rem;}
